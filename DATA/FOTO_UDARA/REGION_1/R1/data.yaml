@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Palm Oil']
+
+roboflow:
+  workspace: esqbs
+  project: object-detection-oil-palm-tree-r1
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/esqbs/object-detection-oil-palm-tree-r1/dataset/1
